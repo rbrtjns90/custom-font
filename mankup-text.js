@@ -24,7 +24,7 @@
 
       const wrap = document.createElement('span');
       wrap.setAttribute('aria-hidden', 'true');
-      wrap.style.cssText = 'display:inline-flex;align-items:flex-end;gap:1px;flex-wrap:wrap';
+      wrap.style.cssText = 'display:inline-flex;align-items:flex-end;gap:0;flex-wrap:wrap';
 
       for (const ch of raw) {
         const g = GLYPHS[ch] || GLYPHS[ch.toUpperCase()] || GLYPHS[ch.toLowerCase()];
