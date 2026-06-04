@@ -37,6 +37,7 @@
             'overflow:hidden',
             'flex-shrink:0',
             'vertical-align:bottom',
+            `margin-right:-${Math.round(13 * scale)}px`,
           ].join(';');
           const inner = document.createElement('span');
           inner.style.cssText = [
@@ -54,7 +55,7 @@
           wrap.appendChild(outer);
         } else if (ch === ' ') {
           const sp = document.createElement('span');
-          sp.style.cssText = `display:inline-block;width:${Math.round(22 * scale)}px`;
+          sp.style.cssText = `display:inline-block;width:${Math.round(60 * scale)}px`;
           wrap.appendChild(sp);
         } else {
           const sp = document.createElement('span');
