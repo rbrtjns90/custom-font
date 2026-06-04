@@ -37,7 +37,7 @@
             'overflow:hidden',
             'flex-shrink:0',
             'vertical-align:bottom',
-            `margin-right:-${Math.round(13 * scale)}px`,
+            `margin-right:-${Math.round(38 * scale)}px`,
           ].join(';');
           const inner = document.createElement('span');
           inner.style.cssText = [
