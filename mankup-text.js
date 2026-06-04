@@ -40,6 +40,7 @@
             'flex-shrink:0',
             'vertical-align:bottom',
             `margin-right:-${Math.round((38 + (NARROW[ch] || 0)) * scale)}px`,
+            `margin-left:-${Math.round((NARROW[ch] || 0) * scale)}px`,
           ].join(';');
           const inner = document.createElement('span');
           inner.style.cssText = [
